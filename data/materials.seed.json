@@ -1,0 +1,12 @@
+[
+  {
+    "id": "mat_3000",
+    "name": "Stange 3000mm",
+    "lengthMm": 3000
+  },
+  {
+    "id": "mat_6000",
+    "name": "Stange 6000mm",
+    "lengthMm": 6000
+  }
+]

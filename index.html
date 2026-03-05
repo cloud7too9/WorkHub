@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WorkHub</title>
+
+  <link rel="stylesheet" href="./css/tokens.css" />
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/components.css" />
+</head>
+<body>
+  <!-- Info(#): App-Shell + Navigation + Main-Container -->
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="logo-dot"></div>
+        <strong>WorkHub</strong>
+      </div>
+
+      <nav class="nav">
+        <a class="nav-link" href="#/auftraege" data-nav="auftraege">Aufträge</a>
+        <a class="nav-link" href="#/saegen" data-nav="saegen">Sägen</a>
+        <a class="nav-link" href="#/handbuch" data-nav="handbuch">Handbuch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="page">
+    <section class="card">
+      <h1>WorkHub</h1>
+      <p class="muted">Wähle oben „Aufträge“, „Sägen“ oder „Handbuch“.</p>
+    </section>
+  </main>
+
+  <div id="toastHost" class="toast-host" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="./js/state.js"></script>
+  <script src="./js/ui.js"></script>
+  <script src="./js/router.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

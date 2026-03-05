@@ -1,0 +1,28 @@
+/* Info(#): Design Tokens (Farben, Abstände, Radius) */
+:root{
+  color-scheme: dark;
+
+  --bg:#0d0f0f;
+  --panel:#141717;
+  --panel2:#101313;
+
+  --text:#eef2f6;
+  --muted:rgba(238,242,246,.68);
+
+  --border:rgba(255,255,255,.10);
+  --border2:rgba(255,255,255,.14);
+
+  --accent:#66f0ff;
+  --accent-ink:#051014;
+
+  --warn:#ffcc66;
+  --danger:#ff6666;
+
+  --radius:16px;
+  --radius-sm:12px;
+
+  --pad:14px;
+  --gap:12px;
+
+  --topbar-h:56px;
+}
