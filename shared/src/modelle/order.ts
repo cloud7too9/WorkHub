@@ -1,7 +1,7 @@
 export interface Order {
   id: Id;
   werkstueckId: Id;
-  anzahl: number;
+  stueckzahl: number;
   status: OrderStatus;
   erstelltAm: IsoDatum;
   aktualisiertAm: IsoDatum;
